@@ -9,7 +9,7 @@ iris_data = sklearn.datasets.load_iris()
 
 # 1 is features, 2 is target variable, 3 is keys
 
-
+print(iris_data.data)
 
 while True:
     choice = menu.menu()
